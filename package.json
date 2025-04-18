@@ -1,0 +1,13 @@
+{
+  "name": "telegram-image-scraper",
+  "version": "1.0.0",
+  "description": "Bot to scrape images from Telegram posts using Puppeteer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "puppeteer": "^19.0.0",
+    "node-telegram-bot-api": "^0.54.0"
+  }
+}
