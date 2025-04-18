@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 const TelegramBot = require('node-telegram-bot-api');
 
 // توكن البوت
-const token = 'YOUR_BOT_TOKEN'; // استبدله بتوكن البوت الخاص بك
+const token = '1942740582:AAGgFR5vMH0WNNT3aNGXiht9TQX9yuRRs64'; // استبدله بتوكن البوت الخاص بك
 const bot = new TelegramBot(token, { polling: true });
 
 // دالة سحب الصور من رابط تيليجرام
